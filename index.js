@@ -8,4 +8,6 @@ const descript = prompt('Tell me ur repository description: ');
 const private = JSON.parse(prompt('Is it private? true or false '));
 
 
-repository.create(token,repoName,descript,private);
+repository.create(token,repoName,descript,private).then(()=>{
+    
+});
