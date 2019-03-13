@@ -1,0 +1,24 @@
+{
+  "name": "git-green",
+  "version": "1.0.0",
+  "description": "bot to stay your git green. When you dont have time to code today but don't want to loose your green tick in git, just run this",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vNNi/git-green.git"
+  },
+  "author": "Vinícius Komninakis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vNNi/git-green/issues"
+  },
+  "homepage": "https://github.com/vNNi/git-green#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "prompt-sync": "^4.1.6"
+  }
+}
